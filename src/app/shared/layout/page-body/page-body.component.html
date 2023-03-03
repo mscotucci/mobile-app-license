@@ -1,0 +1,11 @@
+<div class="absolute inset-0 flex flex-col min-w-0 overflow-hidden">
+    <ng-content select="[header]"></ng-content>
+
+    <!-- Main -->
+    <div class="flex-auto p-6 sm:p-10 overflow-y-auto" cdkScrollable>
+        <!-- CONTENT GOES HERE -->
+        <div class="">
+            <ng-content select="[body]"></ng-content>
+        </div>
+    </div>
+</div>
